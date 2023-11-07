@@ -1,10 +1,3 @@
-//
-//  HomeView.swift
-//  RegalRecipes
-//
-//  Created by Marilyn Diebold on 11/6/23.
-//
-
 import SwiftUI
 
 struct HomeView: View {
