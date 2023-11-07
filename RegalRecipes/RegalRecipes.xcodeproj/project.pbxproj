@@ -16,6 +16,7 @@
 		AA2EC89C2AF9B7EC00B31426 /* NewRecipesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2EC89B2AF9B7EC00B31426 /* NewRecipesView.swift */; };
 		AA2EC89E2AF9B80000B31426 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2EC89D2AF9B80000B31426 /* FavoritesView.swift */; };
 		AA2EC8A02AF9B81600B31426 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2EC89F2AF9B81600B31426 /* SettingsView.swift */; };
+		AA54E4A02AF9C43600B03439 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA54E49F2AF9C43600B03439 /* TabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		AA2EC89B2AF9B7EC00B31426 /* NewRecipesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRecipesView.swift; sourceTree = "<group>"; };
 		AA2EC89D2AF9B80000B31426 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
 		AA2EC89F2AF9B81600B31426 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		AA54E49F2AF9C43600B03439 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				AA2EC8792AF9B3EB00B31426 /* ContentView.swift */,
+				AA54E49F2AF9C43600B03439 /* TabBar.swift */,
 				AA2EC8972AF9B7B000B31426 /* HomeView.swift */,
 				AA2EC8992AF9B7D800B31426 /* CatagoriesView.swift */,
 				AA2EC89B2AF9B7EC00B31426 /* NewRecipesView.swift */,
@@ -203,6 +206,7 @@
 				AA2EC8A02AF9B81600B31426 /* SettingsView.swift in Sources */,
 				AA2EC89C2AF9B7EC00B31426 /* NewRecipesView.swift in Sources */,
 				AA2EC89A2AF9B7D800B31426 /* CatagoriesView.swift in Sources */,
+				AA54E4A02AF9C43600B03439 /* TabBar.swift in Sources */,
 				AA2EC89E2AF9B80000B31426 /* FavoritesView.swift in Sources */,
 				AA2EC8982AF9B7B000B31426 /* HomeView.swift in Sources */,
 				AA2EC87A2AF9B3EB00B31426 /* ContentView.swift in Sources */,

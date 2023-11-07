@@ -4,7 +4,7 @@ struct CatagoriesView: View {
     var body: some View {
         NavigationView {
             Text("Catagories").navigationTitle("Catagories")
-        }
+        }.navigationViewStyle(.stack)
     }
 }
 

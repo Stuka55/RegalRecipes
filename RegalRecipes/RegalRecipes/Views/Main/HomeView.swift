@@ -4,7 +4,7 @@ struct HomeView: View {
     var body: some View {
         NavigationView {
             Text("My Recipies").navigationTitle("My Recipes")
-        }
+        }.navigationViewStyle(.stack)
     }
 }
 

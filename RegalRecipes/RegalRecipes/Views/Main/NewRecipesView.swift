@@ -4,7 +4,7 @@ struct NewRecipesView: View {
     var body: some View {
         NavigationView {
             Text("New Recipe").navigationTitle("New Recipe")
-        }
+        }.navigationViewStyle(.stack)
     }
 }
 

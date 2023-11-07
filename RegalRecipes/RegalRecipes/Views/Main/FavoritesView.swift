@@ -3,8 +3,8 @@ import SwiftUI
 struct FavoritesView: View {
     var body: some View {
         NavigationView {
-            Text("Favorites").navigationTitle("Favorites")
-        }
+            Text("You have not saved any recipes to your favorites yet.").padding().navigationTitle("Favorites")
+        }.navigationViewStyle(.stack)
     }
 }
 
