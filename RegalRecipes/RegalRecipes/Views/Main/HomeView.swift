@@ -3,7 +3,7 @@ import SwiftUI
 struct HomeView: View {
     var body: some View {
         NavigationView {
-            Text("My Recipies").navigationTitle("My Recipes")
+            List(Recipe.all){recipe in Text(recipe.name)}
         }.navigationViewStyle(.stack)
     }
 }

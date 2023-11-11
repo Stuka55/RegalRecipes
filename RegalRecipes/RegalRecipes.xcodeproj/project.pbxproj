@@ -17,6 +17,8 @@
 		AA2EC89E2AF9B80000B31426 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2EC89D2AF9B80000B31426 /* FavoritesView.swift */; };
 		AA2EC8A02AF9B81600B31426 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2EC89F2AF9B81600B31426 /* SettingsView.swift */; };
 		AA54E4A02AF9C43600B03439 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA54E49F2AF9C43600B03439 /* TabBar.swift */; };
+		AA54E4A22B003FDC00B03439 /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA54E4A12B003FDC00B03439 /* RecipeModel.swift */; };
+		AA54E4A42B00447600B03439 /* RecipeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA54E4A32B00447600B03439 /* RecipeCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		AA2EC89D2AF9B80000B31426 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
 		AA2EC89F2AF9B81600B31426 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		AA54E49F2AF9C43600B03439 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		AA54E4A12B003FDC00B03439 /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RecipeModel.swift; path = RegalRecipes/Views/Main/RecipeModel.swift; sourceTree = SOURCE_ROOT; };
+		AA54E4A32B00447600B03439 /* RecipeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RecipeCard.swift; path = RegalRecipes/Views/Main/RecipeCard.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,7 @@
 		AA2EC8872AF9B49500B31426 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				AA54E4A32B00447600B03439 /* RecipeCard.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -129,6 +134,7 @@
 		AA2EC88A2AF9B50900B31426 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				AA54E4A12B003FDC00B03439 /* RecipeModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -204,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA2EC8A02AF9B81600B31426 /* SettingsView.swift in Sources */,
+				AA54E4A42B00447600B03439 /* RecipeCard.swift in Sources */,
 				AA2EC89C2AF9B7EC00B31426 /* NewRecipesView.swift in Sources */,
 				AA2EC89A2AF9B7D800B31426 /* CatagoriesView.swift in Sources */,
 				AA54E4A02AF9C43600B03439 /* TabBar.swift in Sources */,
@@ -211,6 +218,7 @@
 				AA2EC8982AF9B7B000B31426 /* HomeView.swift in Sources */,
 				AA2EC87A2AF9B3EB00B31426 /* ContentView.swift in Sources */,
 				AA2EC8782AF9B3EB00B31426 /* RegalRecipesApp.swift in Sources */,
+				AA54E4A22B003FDC00B03439 /* RecipeModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
