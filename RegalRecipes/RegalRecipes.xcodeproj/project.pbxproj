@@ -19,6 +19,7 @@
 		AA54E4A02AF9C43600B03439 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA54E49F2AF9C43600B03439 /* TabBar.swift */; };
 		AA54E4A22B003FDC00B03439 /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA54E4A12B003FDC00B03439 /* RecipeModel.swift */; };
 		AA54E4A42B00447600B03439 /* RecipeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA54E4A32B00447600B03439 /* RecipeCard.swift */; };
+		AAE831DB2B0EA031006DD1C1 /* RecipeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE831DA2B0EA031006DD1C1 /* RecipeList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		AA54E49F2AF9C43600B03439 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		AA54E4A12B003FDC00B03439 /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RecipeModel.swift; path = RegalRecipes/Views/Main/RecipeModel.swift; sourceTree = SOURCE_ROOT; };
 		AA54E4A32B00447600B03439 /* RecipeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RecipeCard.swift; path = RegalRecipes/Views/Main/RecipeCard.swift; sourceTree = SOURCE_ROOT; };
+		AAE831DA2B0EA031006DD1C1 /* RecipeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RecipeList.swift; path = RegalRecipes/Views/Main/RecipeList.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				AA54E4A32B00447600B03439 /* RecipeCard.swift */,
+				AAE831DA2B0EA031006DD1C1 /* RecipeList.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 				AA2EC89A2AF9B7D800B31426 /* CatagoriesView.swift in Sources */,
 				AA54E4A02AF9C43600B03439 /* TabBar.swift in Sources */,
 				AA2EC89E2AF9B80000B31426 /* FavoritesView.swift in Sources */,
+				AAE831DB2B0EA031006DD1C1 /* RecipeList.swift in Sources */,
 				AA2EC8982AF9B7B000B31426 /* HomeView.swift in Sources */,
 				AA2EC87A2AF9B3EB00B31426 /* ContentView.swift in Sources */,
 				AA2EC8782AF9B3EB00B31426 /* RegalRecipesApp.swift in Sources */,
