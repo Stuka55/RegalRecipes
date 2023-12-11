@@ -1,17 +1,13 @@
-//
-//  RegalRecipesApp.swift
-//  RegalRecipes
-//
-//  Created by Marilyn Diebold on 11/6/23.
-//
-
 import SwiftUI
 
 @main
 struct RegalRecipesApp: App {
+    @StateObject var recipesViewModel = RecipesViewModel()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(recipesViewModel)
         }
     }
 }
