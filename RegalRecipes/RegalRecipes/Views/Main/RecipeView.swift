@@ -15,7 +15,7 @@ struct RecipeView: View {
                         .scaledToFit()
                         .aspectRatio(contentMode: .fit)
                         .frame(maxHeight: 400)
-                        .border(.purple, width: 10)
+                        .border(.purple, width: 5)
                 } placeholder: {
                     Image(systemName: "photo")
                         .resizable()
@@ -25,7 +25,8 @@ struct RecipeView: View {
                         .frame(maxWidth: .infinity, maxHeight: .infinity)
                 }
                 .background(LinearGradient(gradient: Gradient(colors: [Color(.purple).opacity(0.3), Color(.purple)]), startPoint: .top, endPoint: .bottom))
-                .frame(minHeight: 300, maxHeight: 400)
+                .frame(maxHeight: 400)
+                
                 
                 VStack(alignment: .leading, spacing: 30){
                     
@@ -71,6 +72,6 @@ struct RecipeView: View {
 
 struct RecipeView_Previews: PreviewProvider {
     static var previews: some View {
-        RecipeView(recipe: Recipe.all[3])
+        RecipeView(recipe: Recipe.all[1])
     }
 }

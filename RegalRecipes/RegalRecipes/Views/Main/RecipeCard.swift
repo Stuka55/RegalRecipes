@@ -9,6 +9,7 @@ struct RecipeCard: View {
             AsyncImage(url: URL(string: recipe.image)) {image in
                 image
                     .resizable()
+                    //.scaledToFit()
                     //.aspectRatio(contentMode: .fill) // todo fix name shifting
                     .overlay(alignment: .bottom){
                         Text(recipe.name)
